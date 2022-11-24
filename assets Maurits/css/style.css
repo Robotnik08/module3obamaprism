@@ -1,0 +1,170 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0; 
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+.header {
+	overflow: hidden;
+	background-color: #fff;
+	position: sticky;
+	top: 0;
+	box-shadow: 0 0 6px #00000066;
+	line-height: 40px;
+	z-index: 1;
+}
+
+.header a {
+	position: inherit;
+	display: block;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: all 250ms;
+	color: #000;
+	background-color: #fff;
+}
+
+.header a:hover {
+	color: #3dcd44;
+	scale: 103%;
+}
+
+.header a.active {
+	background-color: #fff;
+	color: #000;
+	float: left;
+	opacity: 100%;
+}
+
+.header .icon {
+	display: none;
+}
+
+.float {
+	float: right;
+}
+
+@media screen and (max-width: 645px) {
+	.header a:not(:first-child) {
+		display: none;
+	}
+
+	.header a.icon {
+		float: right;
+		display: block;
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 645px) {
+	.header.responsive {
+		position: relative;
+	}
+
+	.header.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin-right: 0;
+	}
+
+	.header.responsive a {
+		float: none;
+		display: block;
+	}
+}
+
+#content {}
+
+#bg-photo-main {
+	left: 50%;
+	transform: translate(-15%);
+	width: 80%;
+	height: 0%;
+	position: sticky;
+	top: 0px;
+	z-index: -1;
+	border-radius: 15px;
+	margin-top: -70px;
+}
+
+#content-info-box {
+	color: #fff;
+	margin-top: -20%;
+	margin-left: 20%;
+}
+
+#slogan {
+	font-size: 250%;
+}
+
+#alt-txt {
+	color: #fff;
+	font-size: 150%;
+}
+
+#content-btn {
+	position: absolute;
+	padding-top: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+	border-radius: 15px;
+	border: hidden;
+	background-color: #3dcd44;
+	color: #fff;
+	font-size: 150%;
+	transition: all 150ms;
+	box-shadow: 0 3px 0 0 #008b00;
+}
+
+#content-btn:hover {
+	background-color: #fff;
+	color: #000;
+	cursor: pointer;
+	box-shadow: 0 3px 0 0 #ababab;
+}
+
+#content-btn:active {
+    transform: translateY(3px);
+	box-shadow: 0 0 0 0 #ababab;
+}
+
+#flex-info-cards {
+	margin-top: 404px;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 30px;
+	text-align: center;
+}
+
+.flex-item-left {
+	background-color: #fff;
+	padding-top: 5px;
+	padding-bottom: 300px;
+	flex: 33.33%;
+}
+
+.flex-item-middle {
+	background-color: #fff;
+	padding-top: 5px;
+	padding-bottom: 300px;
+	flex: 33.33%;
+	border: solid 1px #000;
+}
+
+.flex-item-right {
+	background-color: #fff;
+	padding-top: 5px;
+	padding-bottom: 300px;
+	flex: 33.33%;
+}
