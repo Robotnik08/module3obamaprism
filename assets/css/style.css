@@ -84,8 +84,43 @@ body {
 .top {
     border-radius: 20px 20px 0 0;
     margin-top: 20px;
+    height: 900px;
 }
 .bottom {
     border-radius: 0 0 20px 20px;
     margin-bottom: 20px;
+}
+.flex {
+    display: flex;
+}
+.sel {
+    margin: 25px;
+    height: 600px;
+    width: 100%;
+}
+.sel img {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+h2 {
+    font-size: xxx-large;
+}
+.sel p {
+    font-size: xx-large;
+}
+.imgbackground {
+    background-image: url(../img/tuin3.png);
+    background-size: 100%;
+    text-align: center;
+}
+h1 {
+    font-size: 120px;
+    color: white;
+}
+.h1wrapper {
+    padding-top: 25%;
+    background-color: rgba(70,70,70,0.5);
+    border: rgba(0,0,0,0.3) 3px solid;
+    border-radius: 10px;
 }
