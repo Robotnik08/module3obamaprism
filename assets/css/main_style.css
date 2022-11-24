@@ -3,11 +3,15 @@
 	margin: 0;
 	padding: 0;
 }
-
+body, html {
+	height: 100%;
+	width: 100%;
+}
 body {
 	margin: 0;
 	padding: 0;
 	background-color: #fff;
+	overflow-x: hidden;
 }
 
 .header {
@@ -83,13 +87,14 @@ body {
 
 #content {
 	position: relative;
+	height: 100%;
+	width: 100%;
 }
 
 #bg-photo-main {
 	left: 50%;
 	transform: translate(-0.5%);
 	width: 99%;
-	height: 0%;
 	position: sticky;
 	top: 0px;
 	z-index: -1;
@@ -97,8 +102,24 @@ body {
 	margin-top: -70px;
 	box-shadow: 0 0 10px 0.4px #888;
 }
-
+#bg-photo-main-small {
+	left: 50%;
+	transform: translate(-0.5%);
+	width: 99%;
+	position: sticky;
+	bottom: 0px;
+	z-index: -1;
+	border-radius: 15px;
+	margin-top: -70px;
+	box-shadow: 0 0 10px 0.4px #888;
+}
 #content-info-box {
+	color: #fff;
+	margin-top: -35%;
+	margin-left: 5%;
+	width: 100%;
+}
+#content-info-box-small {
 	color: #fff;
 	margin-top: -30%;
 	margin-left: 5%;
@@ -107,12 +128,16 @@ body {
 
 @media screen and (max-width: 725px) {
 	#content-info-box {
-		margin-top: -35%;
+		margin-top: -30%;
+		margin-left: -5%;
+		scale: 50%;
+	}
+	#content-info-box-small {
+		margin-top: -30%;
 		margin-left: -5%;
 		scale: 50%;
 	}
 }
-
 #slogan {
 	font-size: 200%;
 	width: 700px;
@@ -151,7 +176,7 @@ body {
 }
 
 #flex-info-cards {
-	margin-top: 500px;
+	margin-top: 36%;
 	display: flex;
 	flex-wrap: wrap;
 	font-size: 30px;
@@ -174,6 +199,7 @@ body {
 
 .flex-item-left {
 	background-color: #fff;
+	min-height: 400px;
 	padding-top: 10px;
 	padding-bottom: 50px;
 	padding-left: 20px;
@@ -183,6 +209,7 @@ body {
 
 .flex-item-middle {
 	background-color: #f5f5f5;
+	min-height: 400px;
 	padding-top: 10px;
 	padding-bottom: 50px;
 	border-left: solid 1.5px #ddd;
@@ -195,6 +222,7 @@ body {
 .flex-item-right {
 	background-color: #fff;
 	padding-top: 10px;
+	min-height: 400px;
 	padding-bottom: 50px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -212,10 +240,12 @@ h5 {
 }
 
 #footer {
+	position: absolute;
+	bottom: -100%;
 	z-index: 1px;
     width: 100%;
     height: 300px;
-    background-color: #fff;
+    background-color: #008b00;
 }
 
 #footer-txt {
@@ -233,4 +263,19 @@ h5 {
     border-radius: 50%;
     width: 20px;
     height: 20px;
+}
+
+/* voor de template, niet veranderen. als je de kleur niet wilt verwijder de class uit de lijst van de div */
+.remove-me {
+	background-color: aqua;
+}
+#main-content {
+	margin-top: 5%;
+	height: 140%;
+}
+#title {
+	font-size:120px;
+}
+.auto {
+	margin: auto;
 }
