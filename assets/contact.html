@@ -31,14 +31,58 @@
 			src="img/tuin4.jpg"
 			alt="bg-photo-main">
 		<div id="content-info-box-small">
-			<p id="title">
-				<b>TITEL</b>
-			</p>
+			<h1 id="title">
+				Contact
+			</h1>
 		</div>
 
-        <div id="main-content" class="remove-me">
-            YOUR CONTENT HERE
-			<img src="img/test.jpg">
+        <div id="main-content" class="main">
+			<div id="main_wrapper">
+				<form action="bedankt.php" method="get">
+					<h2 id="contact_title" class="marg_left">Bedankt voor je interesse</h2>
+					<h3 id="contact_subtitle" class="marg_left">Vul hier uw info in</h3>
+
+					<div class="responsive-flex1">
+						<!-- VoornaamInput -->
+						<div>
+							<p id="vn_input_lable" class="marg_left">Voornaam <span style="color:red;">*</span></p>
+							<input type="text" name="vn" placeholder="Vul in voornaam" id="vn_input" class="marg_left" required/>
+						</div>
+						<!-- TussenVoegInput -->
+						<div>
+							<p id="tv_input_lable" class="marg_left">Tussenvoegsels</p>
+							<input type="text" name="tv" placeholder="Vul in tussenvoegsels" id="tv_input" class="marg_left"/>
+						</div>
+						<!-- AchterNaamInput -->
+						<div>
+							<p id="an_input_lable" class="marg_left">Achternaam <span style="color:red;">*</span></p>
+							<input type="text" name="an" placeholder="Vul in achternaam" id="an_input" class="marg_left" required/>
+						</div>
+					</div>
+					<!-- EmailInput -->
+					<p id="email_input_lable" class="marg_left">Email adres <span style="color:red;">*</span></p>
+					<input type="email" name="email" placeholder="Vul in email" id="email_input" class="marg_left" required/>
+					<!-- NumberInput -->
+					<p id="number_input_lable" class="marg_left">Telefoonnummer <span style="color:red;">*</span></p>
+					<input type="number" name="number" placeholder="Vul in telefoonnummer" id="number_input" class="marg_left" required/>
+					<!-- AdressInput -->
+					<p id="adress_input_lable" class="marg_left">Adres <span style="color:red;">*</span></p>
+					<div class="responsive-flex1">
+						<input type="text" name="adress-place" placeholder="Plaats" id="adress_input" class="marg_left" required/>
+						<input type="text" name="adress-adress" placeholder="Straat en straatnummer" id="adress_input" required/>
+						<input type="text" name="adress-postcode" placeholder="Postcode" id="adress_input" required/>
+					</div>
+
+					<!-- MainInput -->
+					<p id="main_input_lable" class="marg_left">Titel <span style="color:red;">*</span></p>
+					<input type="text" name="main_titles" placeholder="Opzet" id="main_input_title" class="marg_left" maxlength="50" required></textarea>
+					<p id="main_input_lable" class="marg_left">Wat wilt u? <span style="color:red;">*</span></p>
+					<textarea name="main" placeholder="Wensen, andere dingen..." id="main_input" class="marg_left" maxlength="3000" required></textarea>
+					<br/>
+
+					<input type="submit" id="submit-button" class="marg_left"/>
+				</form>
+			</div>
         </div>
 		
 	</div>

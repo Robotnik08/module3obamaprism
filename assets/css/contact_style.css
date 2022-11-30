@@ -1,0 +1,82 @@
+
+.main {
+    background-color: white;
+}
+#main-content {
+    font-size: xx-large;
+    height: 200%;
+}
+#main-content * { 
+    margin-top: 5px;
+}
+input, textarea{
+    font-size:xx-large;
+    padding: 10px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 10px #555;
+    height:60px;
+}
+@media screen and (max-width: 1300px) {
+    #main-content {
+        font-size: x-large;
+    }
+    input {
+        font-size: x-large;
+    }
+}
+#contact_title {
+    font-size: 50px;
+    margin: 5% 0 0 10%;
+}
+.marg_left {
+    margin: 0 0 0 10%;
+}
+#main_wrapper {
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+}
+#main_input {
+    width: 80%;
+    height: 200px;
+}
+
+.responsive-flex1 {
+    margin: 0 0 0 10%;
+    display: flex;
+    flex-direction: row;
+}
+.responsive-flex1 * {
+    margin: 0;
+}
+@media screen and (max-width: 725px) {
+	.responsive-flex1 {
+        display: flex;
+        flex-direction: column;
+        flex-grow: inherit;
+    }
+    .responsive-flex1 * {
+        align-self: start;
+    }
+}
+#main_input {
+    resize: none;
+}
+#footer {
+	position: absolute;
+	bottom: -200%;
+}
+#submit-button {
+    background-color: green;
+    border: 5px solid darkgreen;
+    color: whitesmoke;
+    transition: all 350ms;
+    padding: auto;
+    width: 200px;
+    height: 80px;
+}
+#submit-button:hover {
+    border: 5px solid lightgreen;
+    background-color: #000;
+}
