@@ -4,7 +4,7 @@
 }
 #main-content {
     font-size: xx-large;
-    height: 200%;
+    height: 240%;
 }
 #main-content * { 
     margin-top: 5px;
@@ -50,6 +50,14 @@ input, textarea{
 .responsive-flex1 * {
     margin: 0;
 }
+#phone-number {
+    font-size: 200px;
+}
+@media screen and (max-width: 900px) {
+    #phone-number {
+        font-size: 60px;
+    }
+}
 @media screen and (max-width: 725px) {
 	.responsive-flex1 {
         display: flex;
@@ -83,9 +91,6 @@ input, textarea{
 #tijden-etc {
     text-align: center;
     margin: auto;
-}
-#phone-number {
-    font-size: 200px;
 }
 #open-hours {
     width: 50%;
