@@ -80,3 +80,16 @@ input, textarea{
     border: 5px solid lightgreen;
     background-color: #000;
 }
+#tijden-etc {
+    text-align: center;
+    margin: auto;
+}
+#phone-number {
+    font-size: 200px;
+}
+#open-hours {
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+    background-color: darkgray;
+}
