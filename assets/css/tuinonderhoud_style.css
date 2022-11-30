@@ -1,0 +1,32 @@
+.flexContainer{
+    text-align: center;
+    display: flex ;
+    justify-content: space-evenly;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace
+}
+#main-content{
+    font-size: 70%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#plaatje{
+width: 300px;
+height: 300px;
+}
+
+#plaatje2{
+    width: 300px;
+    height: 300px;
+}
+
+#plaatje4{
+    width: 300px;
+    height: 300px;
+}
+
+#ja{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+}
