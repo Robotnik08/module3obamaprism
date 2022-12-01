@@ -1,5 +1,5 @@
 * {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family:  Arial, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -36,8 +36,8 @@ body {
 }
 
 .header a:hover {
+	text-decoration: underline;
 	color: #3dcd44;
-	scale: 103%;
 }
 
 .header a.active {
@@ -55,7 +55,7 @@ body {
 	float: right;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 930px) {
 	.header a:not(:first-child) {
 		display: none;
 	}
@@ -67,7 +67,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 930px) {
 	.header.responsive {
 		position: absolute 0;
 	}
@@ -162,7 +162,12 @@ body {
 	transition: all 150ms;
 	box-shadow: 0 3px 0 0 #008b00;
 }
+.rounded {
+	margin-top: 50px;
+	border-radius: 10px;
+	box-shadow: 0 0 6px #00000066;
 
+}
 #content-btn:hover {
 	background-color: #fff;
 	color: #000;
@@ -171,8 +176,7 @@ body {
 }
 
 #content-btn:active {
-    transform: translateY(3px);
-	box-shadow: 0 0 0 0 #ababab;
+    transform: translateY(-3px);
 }
 
 #flex-info-cards {
@@ -199,21 +203,18 @@ body {
 
 .flex-item-left {
 	background-color: #fff;
-	min-height: 400px;
 	padding-top: 10px;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 	padding-left: 20px;
 	padding-right: 20px;
 	flex: 30%;
 }
 
 .flex-item-middle {
-	background-color: #f5f5f5;
+	background-color: #ddd;
 	min-height: 400px;
-	padding-top: 10px;
-	padding-bottom: 50px;
-	border-left: solid 1.5px #ddd;
-	border-right: solid 1.5px #ddd;
+	border-left: solid 1.5px #ccc;
+	border-right: solid 1.5px #ccc;
 	padding-left: 20px;
 	padding-right: 20px;
 	flex: 30%;
@@ -231,7 +232,7 @@ body {
 
 .title-flex-item {
 	padding-bottom: 10px;
-	border-bottom: solid 1.5px #ddd;
+	border-bottom: solid 1.5px #b1b1b1;
 }
 
 h5 {
@@ -264,9 +265,6 @@ h5 {
     width: 20px;
     height: 20px;
 }
-h1 {
-	background-color: rgba(100,100,100,0.6);
-}
 
 /* voor de template, niet veranderen. als je de kleur niet wilt verwijder de class uit de lijst van de div */
 .remove-me {
@@ -282,4 +280,11 @@ h1 {
 }
 .auto {
 	margin: auto;
+}
+
+.hover-transition {
+	transition: all 350ms ease-in-out;
+}
+.hover-transition:hover {
+	scale: 103%;
 }

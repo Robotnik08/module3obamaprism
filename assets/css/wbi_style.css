@@ -1,0 +1,15 @@
+p {
+    font-size: xx-large;
+}
+#flex {
+    display: flex;
+}
+.images {
+    width: 50%;
+}
+#main-content {
+    background-color: white;
+}
+h2 {
+    font-size: xx-large;
+}

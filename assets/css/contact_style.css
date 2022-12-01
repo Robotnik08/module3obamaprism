@@ -4,7 +4,7 @@
 }
 #main-content {
     font-size: xx-large;
-    height: 200%;
+    height: 240%;
 }
 #main-content * { 
     margin-top: 5px;
@@ -33,7 +33,7 @@ input, textarea{
     margin: 0 0 0 10%;
 }
 #main_wrapper {
-    overflow-y: auto;
+    overflow-y: hidden;
     width: 100%;
     height: 100%;
 }
@@ -49,6 +49,14 @@ input, textarea{
 }
 .responsive-flex1 * {
     margin: 0;
+}
+#phone-number {
+    font-size: 200px;
+}
+@media screen and (max-width: 900px) {
+    #phone-number {
+        font-size: 60px;
+    }
 }
 @media screen and (max-width: 725px) {
 	.responsive-flex1 {
@@ -79,4 +87,14 @@ input, textarea{
 #submit-button:hover {
     border: 5px solid lightgreen;
     background-color: #000;
+}
+#tijden-etc {
+    text-align: center;
+    margin: auto;
+}
+#open-hours {
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+    background-color: darkgray;
 }
