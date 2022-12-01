@@ -25,6 +25,7 @@
 
 .fotos {
     margin-left: 10px;
+    box-shadow: 8px 8px 10px #555;
 }
 
 #main-content {
@@ -33,4 +34,11 @@
 
 #footer {
     top: 1000%;
+}
+
+.onderwerpen {
+    font-size: 60px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
