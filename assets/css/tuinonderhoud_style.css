@@ -39,3 +39,16 @@ height: 300px;
     text-shadow: 8px 8px 7px rgb(8, 177, 73);
 
 }
+@media screen and (max-width: 900px) {
+    #main-content{
+        margin-top: -20%;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    #content{
+        margin-bottom: -20%;
+    }
+    
+}
