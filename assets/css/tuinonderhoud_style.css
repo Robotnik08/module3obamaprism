@@ -7,7 +7,7 @@
 }
 #main-content{
     background-color: white;
-    font-size: 200%;
+    font-size: xx-large;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: whitesmoke;
     text-align: center;
@@ -35,7 +35,11 @@
     #content{
         margin-bottom: -20%;
     }
+}
 .plaatje{
     width: 500px;
     height: 500px;
+}
+#footer {
+    bottom:-150%;
 }

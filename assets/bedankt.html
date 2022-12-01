@@ -9,6 +9,11 @@
 	<link rel="stylesheet" href="css/main_style.css" />
 	<link rel="stylesheet" href="css/contact_style.css"/>
 	<title>Hogendijk Hoveniers</title>
+	<style>
+		#main_wrapper * {
+			text-align: center;
+		}
+	</style>
 </head>
 
 <body>
@@ -39,11 +44,23 @@
 
         <div id="main-content" class="main">
 			<div id="main_wrapper"> <div class tekst><h2> Bedankt voor uw aanvraag! </h2>
-				<p>Als u nog vragen heeft dan stuurt u een e-mail naar Hendrik@Hogendijk.nl.</p>
-				<p>Bij klachten of andere zaken kunt u bellen naar 31 06-12345678.</p>
+				<p>Als u nog vragen heeft dan stuurt u een e-mail naar <u>hendrikhogendijk@gmail.com</u>.</p>
+				<p>Bij klachten of andere zaken kunt u bellen naar <u>31 06-12345678</u>.</p>
 			    <h2>Namens ons team nog een fijne dag toegewenst!</h2>
-				
-			</div></div>
+				<button onclick="location.href='contact.html'" id="back-button">Terug naar homepagina</button>
+				<br><br>
+			</div>
+			<div id="tijden-etc" class="marg_left">
+				<div id="open-hours">
+					<ul style="list-style: none;">
+						<li><img src="img/clock-icon.png" style="width: 25px"> Maandag-Vrijdag: 07:00 tot 17:00 geopened</li>
+						<li><img src="img/clock-icon.png" style="width: 25px"> Zaterdag: Op afspraak</li>
+						<li><img src="img/clock-icon.png" style="width: 25px"> Zondag: Gesloten</li>
+					</ul>
+				</div>
+			</div>
+		
+		</div>
 
 			</div>
         </div>
@@ -53,7 +70,7 @@
 
 
 	<!-- De footer -->
-	<div id="footer">
+	<div id="footer" class="high">
 		<div id="footer-txt">
 			<span><b>Mijn specialiteiten.</b></span>
 			<br>
