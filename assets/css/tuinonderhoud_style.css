@@ -9,6 +9,8 @@
     font-size: 70%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: whitesmoke;
+    text-align: center;
+    text-shadow: 1px 4px 4px rgb(50, 243, 89);
 }
 
 #plaatje{
