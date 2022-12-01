@@ -1,14 +1,17 @@
 .flexContainer{
-    text-align: center;
+    
     display: flex ;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: 50px;
     font-family:'Courier New', Courier, monospace
 }
 #main-content{
     background-color: white;
     font-size: 70%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: whitesmoke;
+    text-align: center;
+    text-shadow: 1px 4px 4px rgb(50, 243, 89);
 }
 
 #plaatje{
@@ -28,6 +31,11 @@ height: 300px;
 
 #ja{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 55px;
+}
+
+.shadow{
+    text-shadow: 8px 8px 7px rgb(8, 177, 73);
+
 }
