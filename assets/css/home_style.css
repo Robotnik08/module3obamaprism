@@ -1,5 +1,6 @@
 /*Basic structure of slider*/
-.container{
+.container {
+    margin-top: 50px;
     border-radius: 10px;
     width: 80%;
     margin: auto;
@@ -12,17 +13,17 @@
 }
 
 /*Area of images*/
-.wrapper{
+.wrapper {
     width: 100%;
     display: flex;
     animation: slide 16s infinite;
 }
 
-img{
+img {
     width: 100%;
 }
 /*Animation activated by keyframes*/
-@keyframes slide{
+@keyframes slide {
     0%{
         transform: translateX(0);
     }
