@@ -7,35 +7,19 @@
 }
 #main-content{
     background-color: white;
-    font-size: 70%;
+    font-size: 200%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: whitesmoke;
     text-align: center;
-    text-shadow: 1px 4px 4px rgb(50, 243, 89);
 }
 
-#plaatje{
-width: 300px;
-height: 300px;
-}
-
-#plaatje2{
-    width: 300px;
-    height: 300px;
-}
-
-#plaatje4{
-    width: 300px;
-    height: 300px;
-}
 
 #ja{
     display: flex;
     justify-content: space-between;
     margin-top: 55px;
 }
-
-.shadow{
-    text-shadow: 8px 8px 7px rgb(8, 177, 73);
-
+.plaatje{
+    width: 500px;
+    height: 500px;
 }
