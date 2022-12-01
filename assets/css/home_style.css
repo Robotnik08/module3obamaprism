@@ -108,3 +108,16 @@ img {
     width: 100%;
     
 }
+@media screen and (max-width: 930px) {
+    #bg-photo-main {
+        height: 500px;
+    }
+	#content-info-box {
+		margin-top: -120%;
+		margin-left: -5%;
+		scale: 50%;
+	}
+    #footer {
+        bottom: -180%;
+    }
+}
