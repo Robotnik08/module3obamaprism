@@ -180,12 +180,13 @@ body {
 }
 
 #flex-info-cards {
-	margin-top: 36%;
+	margin-top: 23%;
 	display: flex;
 	flex-wrap: wrap;
 	font-size: 30px;
 	text-align: center;
 	box-shadow: 0 0 10px 0.7px #888;
+	width: 100%;
 }
 
 @media screen and (max-width: 1280px) {
@@ -208,6 +209,7 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	flex: 30%;
+	width: 100%;
 }
 
 .flex-item-middle {
@@ -218,6 +220,7 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	flex: 30%;
+	width: 100%;
 }
 
 .flex-item-right {
@@ -228,6 +231,7 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	flex: 30%;
+	width: 100%;
 }
 
 .title-flex-item {
