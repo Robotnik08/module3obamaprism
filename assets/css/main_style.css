@@ -85,13 +85,6 @@ body {
 	}
 }
 
-.hover-transition {
-	transition: all 1s ease-in-out;
-}
-.hover-transition:hover {
-	transform: scale(1.2);
-}
-
 #content {
 	position: relative;
 	height: 100%;
@@ -170,6 +163,7 @@ body {
 	box-shadow: 0 3px 0 0 #008b00;
 }
 .rounded {
+	margin-top: 50px;
 	border-radius: 10px;
 	box-shadow: 0 0 6px #00000066;
 
@@ -221,6 +215,8 @@ body {
 	min-height: 400px;
 	border-left: solid 1.5px #ccc;
 	border-right: solid 1.5px #ccc;
+	padding-left: 20px;
+	padding-right: 20px;
 	flex: 30%;
 }
 
@@ -236,7 +232,7 @@ body {
 
 .title-flex-item {
 	padding-bottom: 10px;
-	border-bottom: solid 1.5px #ddd;
+	border-bottom: solid 1.5px #b1b1b1;
 }
 
 h5 {
@@ -286,3 +282,9 @@ h5 {
 	margin: auto;
 }
 
+.hover-transition {
+	transition: all 350ms ease-in-out;
+}
+.hover-transition:hover {
+	scale: 103%;
+}
