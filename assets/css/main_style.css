@@ -269,6 +269,10 @@ h5 {
     width: 20px;
     height: 20px;
 }
+/* 
+h1 {
+	background-color: rgba(100,100,100,0.6);
+}
 
 /* voor de template, niet veranderen. als je de kleur niet wilt verwijder de class uit de lijst van de div */
 .remove-me {
