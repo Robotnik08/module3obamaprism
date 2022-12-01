@@ -1,10 +1,13 @@
 /*Basic structure of slider*/
 .container{
-    width: 200px;
-    position: absolute;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+	box-shadow: 0 0 6px #00000066;
+    /* position: absolute;
 	transform: translate(-50%, -50%,);
 	top: 50%;
-	left: 40%;
+	left: 40%; */
     overflow: hidden;
 }
 
