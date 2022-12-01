@@ -42,3 +42,15 @@
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 725px) {
+    .photo {
+        height:auto;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .photo {
+        height:auto;
+    }
+}
