@@ -1,1 +1,54 @@
-/*extra styling*/
+/*Basic structure of slider*/
+.container {
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+	box-shadow: 0 0 6px #00000066;
+    /* position: absolute;
+	transform: translate(-50%, -50%,);
+	top: 50%;
+	left: 40%; */
+    overflow: hidden;
+}
+
+/*Area of images*/
+.wrapper {
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+img {
+    width: 100%;
+}
+/*Animation activated by keyframes*/
+@keyframes slide {
+    0%{
+        transform: translateX(0);
+    }
+	5%{
+		transform: translateX(0);
+	}
+    25%{
+        transform: translateX(-100%);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-200%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-300%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
