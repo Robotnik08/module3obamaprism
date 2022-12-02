@@ -13,8 +13,8 @@
 
 <body>
 	<div class="header" id="myTopnav">
-		<a href="home.html" class="active">Home</a>
-		<img src="img/logo.png" style="height: 60px; width: auto;">
+		<a href="home.html" class="active"><u>Home</u></a>
+		<img src="img/logo.png" style="height: 50px; width: auto;">
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 			<i class="fa fa-bars"></i>
 		</a>
@@ -35,13 +35,11 @@
 		</div>
 
 		<div id="content-info-box">
+			<img src="img/logo.png" id="main-logo">
 			<p id="slogan" class="auto">
 				<b>Een tuin voor nu, een tuin voor later.</b>
 			</p>
-			<br>
-			<br>
-			<br>
-			<button id="content-btn" style="left:50%; transform:translateX(-50%)">
+			<button id="content-btn" style="left:50%; transform:translateX(-50%)" onclick="location.href='contact.html'">
 				<b>Contact</b>
 			</button>
 		</div>
@@ -65,7 +63,7 @@
 				<!--Basic structure of slider-->
 				<div class="container hover-transition">
 					<!--Area of the images-->
-					<div class="wrapper">
+					<div class="wrapper slide">
 						<img src="img/car1.jpg">
 						<img src="img/car2.jpg">
 						<img src="img/car3.jpg">
@@ -78,6 +76,31 @@
 					<b>Neem nu contact op!</b></p>
 				<p></p>
 				<p>Je krijgt snel een bericht terug om een afspraak te maken!</p>
+					<b>Contact</b>
+				</button>
+				<!--Basic structure of slider-->
+				<div class="container hover-transition">
+					<!--Area of the images-->
+					<div class="wrapper slide1">
+						<div class="review">
+							<div class="review-top">Lukas Stroomer</div>
+							<div class="review-bottom">Geweldige service!</div>
+						</div>
+						<div class="review">
+							<div class="review-top">Thomas Tijs</div>
+							<div class="review-bottom">Fantastische service!</div>
+						</div>
+						<div class="review">
+							<div class="review-top">Martijn Kunstman</div>
+							<div class="review-bottom">Geweldige website!</div>
+						</div>
+						<div class="review">
+							<div class="review-top">Jan van Os</div>
+							<div class="review-bottom">JAN!</div>
+						</div>
+					</div>
+				</div>
+				<img src="img/contact.png" style="width:400px; height:auto; margin:0;" class="hover-transition" onclick="location.href='contact.html'">
 			</div>
 		</div>
 	</div>

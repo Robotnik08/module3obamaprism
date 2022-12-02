@@ -180,12 +180,13 @@ body {
 }
 
 #flex-info-cards {
-	margin-top: 36%;
+	margin-top: 23%;
 	display: flex;
 	flex-wrap: wrap;
 	font-size: 30px;
 	text-align: center;
 	box-shadow: 0 0 10px 0.7px #888;
+	width: 100%;
 }
 
 @media screen and (max-width: 1280px) {
@@ -203,11 +204,11 @@ body {
 
 .flex-item-left {
 	background-color: #fff;
-	padding-top: 10px;
 	padding-bottom: 100px;
 	padding-left: 20px;
 	padding-right: 20px;
 	flex: 30%;
+	width: 100%;
 }
 
 .flex-item-middle {
@@ -218,19 +219,21 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	flex: 30%;
+	width: 100%;
 }
 
 .flex-item-right {
 	background-color: #fff;
-	padding-top: 10px;
 	min-height: 400px;
 	padding-bottom: 50px;
 	padding-left: 20px;
 	padding-right: 20px;
 	flex: 30%;
+	width: 100%;
 }
 
 .title-flex-item {
+	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom: solid 1.5px #b1b1b1;
 }
@@ -265,6 +268,10 @@ h5 {
     width: 20px;
     height: 20px;
 }
+/* 
+h1 {
+	background-color: rgba(100,100,100,0.6);
+}
 
 /* voor de template, niet veranderen. als je de kleur niet wilt verwijder de class uit de lijst van de div */
 .remove-me {
@@ -286,5 +293,5 @@ h5 {
 	transition: all 350ms ease-in-out;
 }
 .hover-transition:hover {
-	scale: 103%;
+	scale: 120%;
 }

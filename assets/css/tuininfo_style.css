@@ -18,7 +18,6 @@
 }
 
 #mainwrapper {
-    overflow-y: auto;
     width: 100%;
     height: 100%; 
 }
@@ -33,7 +32,7 @@
 }
 
 #footer {
-    top: 350%;
+    top: 300%;
 }
 
 .onderwerpen {
@@ -46,6 +45,9 @@
 @media screen and (max-width: 725px) {
     .photo {
         height:auto;
+    }
+    #mainwrapper * {
+        font-size: x-large;
     }
 }
 
