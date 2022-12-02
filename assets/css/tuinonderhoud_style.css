@@ -7,27 +7,12 @@
 }
 #main-content{
     background-color: white;
-    font-size: 70%;
+    font-size: xx-large;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: whitesmoke;
     text-align: center;
-    text-shadow: 1px 4px 4px rgb(50, 243, 89);
 }
 
-#plaatje{
-width: 300px;
-height: 300px;
-}
-
-#plaatje2{
-    width: 300px;
-    height: 300px;
-}
-
-#plaatje4{
-    width: 300px;
-    height: 300px;
-}
 
 #ja{
     display: flex;
@@ -38,4 +23,23 @@ height: 300px;
 .shadow{
     text-shadow: 8px 8px 7px rgb(8, 177, 73);
 
+}
+@media screen and (max-width: 900px) {
+    #main-content{
+        margin-top: -20%;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    #content{
+        margin-bottom: -20%;
+    }
+}
+.plaatje{
+    width: 500px;
+    height: 500px;
+}
+#footer {
+    bottom:-150%;
 }

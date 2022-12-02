@@ -98,3 +98,9 @@ input, textarea{
     margin: auto;
     background-color: darkgray;
 }
+#back-button {
+    width: 200px;
+    height: 100px;
+    font-size: xx-large;
+    border-radius: 10px;
+}
