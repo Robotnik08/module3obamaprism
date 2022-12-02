@@ -9,7 +9,7 @@
 }
 
 .text {
-    font-size: 40px;
+    font-size: x-large;
     margin-left: 10px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 #footer {
-    top: 300%;
+    top: 340%;
 }
 
 .onderwerpen {
@@ -56,3 +56,4 @@
         height:auto;
     }
 }
+

@@ -8,13 +8,13 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main_style.css" />
 	<link rel="stylesheet" href="css/home_style.css"/>
+	<link rel="icon" type="png" href="img/logo.png"/>
 	<title>Hogendijk Hoveniers</title>
 </head>
 
 <body>
 	<div class="header" id="myTopnav">
-		<a href="home.html" class="active"><u>Home</u></a>
-		<img src="img/logo.png" style="height: 50px; width: auto;">
+		<img src="img/logo.png" style="height: 60px; width: auto;" onclick="location.href='home.html'" class="hover-transition"/>
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 			<i class="fa fa-bars"></i>
 		</a>
@@ -54,14 +54,22 @@
 				<p class="title-flex-item">
 					<b>Tuinonderhoud</b></p>
 				<p>Professioneel onderhoud en advies</p>
-				<img src="img/car1.jpg" class="rounded hover-transition">
+				<div class="container hover-transition limitheight" onclick="location.href='tuinonderhoud.html'">
+					<!--Area of the images-->
+					<div class="wrapper slide">
+						<img src="img/Souf.jpeg">
+						<img src="img/tuin2.png">
+						<img src="img/tuin3.png">
+						<img src="img/tuin4.jpg">
+					</div>
+				</div>
 			</div>
 			<div class="flex-item-middle">
 				<p class="title-flex-item">
 					<b>Tuinontwerp</b></p>
 				<p>Professionele tuinontwerper</p>
 				<!--Basic structure of slider-->
-				<div class="container hover-transition">
+				<div class="container hover-transition" onclick="location.href='tuininfo.html'">
 					<!--Area of the images-->
 					<div class="wrapper slide">
 						<img src="img/car1.jpg">
@@ -115,6 +123,9 @@
 			<span><b>Mijn specialiteiten.</b></span>
 			<br>
 			<div id="li-text">
+				<img class="checkmark"
+					src="img/genericCheckmark.jpg"
+					alt="checkmark-logo"> <u>+31 6 12345678</u><br>
 				<img class="checkmark"
 					src="img/genericCheckmark.jpg"
 					alt="checkmark-logo"> Snelle klantenservice<br>

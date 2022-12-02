@@ -204,7 +204,6 @@ body {
 
 .flex-item-left {
 	background-color: #fff;
-	padding-top: 10px;
 	padding-bottom: 100px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -225,7 +224,6 @@ body {
 
 .flex-item-right {
 	background-color: #fff;
-	padding-top: 10px;
 	min-height: 400px;
 	padding-bottom: 50px;
 	padding-left: 20px;
@@ -235,6 +233,7 @@ body {
 }
 
 .title-flex-item {
+	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom: solid 1.5px #b1b1b1;
 }
@@ -291,8 +290,8 @@ h1 {
 }
 
 .hover-transition {
-	transition: all 350ms ease-in-out;
+	transition: all 400ms ease-in-out;
 }
 .hover-transition:hover {
-	scale: 120%;
+	scale: 110%;
 }
