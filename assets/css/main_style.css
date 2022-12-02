@@ -291,8 +291,8 @@ h1 {
 }
 
 .hover-transition {
-	transition: all 350ms ease-in-out;
+	transition: all 400ms ease-in-out;
 }
 .hover-transition:hover {
-	scale: 120%;
+	scale: 110%;
 }
